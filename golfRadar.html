@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navigation functions (heading)</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/public/golfRadar.js">
+    </script>
+    <link rel="stylesheet" href="/public/goldRadar.css">
+  </head>
+  <body>
+
+      <!-- <input id="pac-input" class="controls" type="text" placeholder="Search Box"> -->
+      <input type="button" value = "Track by current location on" id = "current-location">
+      <div id = "yards"></div>
+    <div id="map"></div>
+    <input type="button" class = "button" id ="removeCurrent" value ="Clear">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBraLbgasuPDW47lKPC0dV2sqoMmnzzerc&libraries=geometry,places&callback=initMap"
+        async defer></script>
+  </body>
+</html>
